@@ -12,7 +12,6 @@ $text = $result['message'] ['text'];
 $chat_id = $result['message']['chat']['id'];
 $message_id = $result['message']['message_id'];
 $username = $result['message']['from']['username'];
-$newtext = '欢迎萌新 '.$username.'，进群请先看公告。';
 $username = strtolower($username);
 if ($text) {
     $options = [['注册', '账户查询', '下注'], ['充值', '开奖查询', '取消']];
