@@ -8,5 +8,5 @@ $config = [
 		'password' => "123456", //数据库密码 
 		'charset' => 'utf8'
 ];
-$bot_token = '688195307:AAEHCSkoAmAPa-r45_uIiXy9cyzI-9Z0oW4';
+$bot_token = '';
 ?>
